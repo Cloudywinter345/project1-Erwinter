@@ -8,20 +8,18 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
-
-    @livewireStyles
+@livewireStyles
 </head>
 <body>
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">Cloppy</a>
           </div>
         </nav>
       </div>
-
+      <br>
     @livewire('shop')
-    
     @livewireScripts
 </body>
 </html>

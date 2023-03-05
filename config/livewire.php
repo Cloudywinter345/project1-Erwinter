@@ -53,8 +53,8 @@ return [
     | Examples: "/assets", "myurl.com/app".
     |
     */
-
-    'asset_url' => "https://localhost/toko_awan2/public",
+//karena XAMPP anda tidak pakai SSL jadi singgah pakai http saja, dan bukan https
+    'asset_url' => "http://localhost/toko_awan2/public",
 
     /*
     |--------------------------------------------------------------------------
